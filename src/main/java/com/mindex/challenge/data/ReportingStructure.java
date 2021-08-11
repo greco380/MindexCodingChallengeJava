@@ -1,13 +1,16 @@
 package com.mindex.challenge.data;
 
-public enum ReportingStructure {
-    ;
+public class ReportingStructure {
+
     /*
      * Here are the new properties for the employee and the number of reports that employee has
      */
     private String employee;
     private int NumberOfReports;
 
+    public ReportingStructure(){
+
+    }
     /*
      * below are the getters and setters for the two properties of employee
      * and NumberOfReports
